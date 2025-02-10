@@ -1,5 +1,5 @@
-const Header = () => {
+const AppHeader = () => {
   return <div>App header</div>;
 };
 
-export default Header;
+export default AppHeader;

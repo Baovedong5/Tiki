@@ -1,9 +1,10 @@
 import { Outlet } from "react-router-dom";
+import AppHeader from "components/layout/app.header";
 
 function Layout() {
   return (
-    <div className="text-red-500 underline">
-      Hello world
+    <div>
+      <AppHeader />
       <Outlet />
     </div>
   );
